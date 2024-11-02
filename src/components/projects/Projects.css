@@ -1,0 +1,29 @@
+.project_card {
+    border: 0;
+    background-color: #f6f6f6;
+    box-shadow: -10px -10px 20px white, 10px 10px 20px rgba(165, 181, 248, 0.4);
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+.project_card h5 {
+    color: #e09c10;
+}
+.project_card p {
+    color: #646464;
+    text-align: left;
+}
+.project_technologies {
+    display: flex;
+    justify-content: space-evenly;
+}
+.project_technologies div {
+    color: #0b2593;
+    text-shadow: 2px 2px 5px skyblue;
+}
+.github_icon {
+    font-size: 25px;
+}
+.project_card:hover {
+    transform: scale(1.03);
+    transition: all 0.5s ease-in-out;
+}

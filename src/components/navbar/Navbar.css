@@ -1,0 +1,29 @@
+nav.navbar.navbar-expand-md.bg-body-tertiary.sticky-top {
+    height: 70px;
+    background-color: azure !important;
+}
+.nav-item {
+    font-size: 18px;
+    margin: 0 5px;
+}
+.logo img {
+    width: 200px;
+    height: 70px;
+}
+
+@media (min-width: 720px) and (max-width: 960px) {
+    .nav-item {
+        font-size: 16px;
+    }
+    .logo img {
+        width: 150px;
+        height: 50px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 540px){
+    .logo img {
+        width: 120px;
+        height: 50px;
+    }
+}

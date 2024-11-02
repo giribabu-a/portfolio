@@ -1,0 +1,35 @@
+.resume_btn {
+    margin: 15px 0 0 10px;
+}
+.resume_btn button {
+    border: 0;
+    outline: 0;
+    background-color: #2fb68e;
+    color: #fff;
+    border-radius: 30px;
+    padding: 7px 25px;
+    /* box-shadow: -5px -5px -10px white, 5px 5px 10px black; */
+    /* box-shadow: 5px 5px 10px red; */
+}
+
+.about_image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.about_image img {
+    padding: 3px;
+    box-shadow: -10px -10px 20px salmon, 10px 10px 20px rgb(102, 231, 47);
+    animation: imagesAnimation 10s linear 1s infinite;
+}
+@keyframes imagesAnimation {
+    0% {
+        box-shadow: -10px -10px 20px salmon, 10px 10px 20px rgb(102, 231, 47);
+    }
+    10%{
+        box-shadow: -5px -10px 15px seagreen, 5px 10px 15px cornflowerblue;
+    }
+    20%{
+        box-shadow: -10px -5px 10px blueviolet, 10px 5px 10px yellowgreen;
+    }
+}

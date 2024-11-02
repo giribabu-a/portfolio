@@ -1,0 +1,36 @@
+
+.skills_card {
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.card.skills_card {
+    background-color: #f6f6f6;
+    border: 0;
+    cursor: pointer;
+    box-shadow: -10px -10px 20px #fff, 10px 10px 20px rgba(165, 181, 248, 0.4);
+}
+.skills_card div h2{
+    font-size: 22px;
+    color: #0b2593;
+}
+.skills_card div p{
+    color: #646464;
+}
+.card.skills_card:hover {
+    transform: scale(1.03);
+    transition: all 0.5s ease-in-out;
+}
+
+.tech_skills_heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    color: #525151;
+    letter-spacing: 2px;
+}
+.tech_skills_list div:hover {
+    cursor: zoom-in;
+    transform: scale(1.5);
+    transition: all 0.5s ease-in-out;
+}
